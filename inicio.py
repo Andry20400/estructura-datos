@@ -4,4 +4,10 @@ if edad < 18:
     print("no puedes entrar") 
 else: 
     print("puedes entrar")
-    
+
+    nombre = input("¿Cómo te llamas? ")
+edad = int(input("¿Cuántos años tienes? "))
+
+print(f"Te llamas {nombre} y tienes {edad} años.")
+ 
+
