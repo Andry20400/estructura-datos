@@ -7,8 +7,8 @@ num3 = int(input("ingrese el tercer número:"))
 mayor = max(num1, num2, num3)
 menor = min(num1, num2, num3)
 
-# Moatrar el resultado 
+# Mostrar el resultado 
 print("El número mayor es:", mayor)
 print("El número menor es:", menor)
-        
+      
 
