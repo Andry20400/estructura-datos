@@ -38,27 +38,3 @@ class ListaEnlazada:
                 return
             nodo_actual = nodo_actual.next
 
-    def buscar(self, dato):
-        nodo_actual = self.cabeza
-        posicion = 1
-        while nodo_actual is not None:
-            if nodo_actual.data == dato:
-                return posicion
-            nodo_actual = nodo_actual.next
-            posicion += 1
-        return -1  
-
-lista = ListaEnlazada()
-print("Agregamos datos al nodo")
-lista.agregar_nodo(3)
-lista.agregar_nodo(1)
-lista.agregar_nodo(5)
-
-print("Imprimimos los datos")
-lista.imprimir()
-
-print("Buscar el elemento 5:")
-print(lista.buscar(5))  
-
-print("Buscar el elemento 3:")
-print(lista.buscar(3))  
